@@ -12,10 +12,118 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-family:'Red Hat Display',sans-serif;
+    
 }
 
 .card {
     width:450px;
     background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    color:hsla(223, 23%, 55%, 1);
+    height: 100vh;
+    margin: 50px auto;
+}
+
+.summary-container {
+    padding: 0 48px;
+}
+
+.hero {
+    width: 100%;
+}
+
+/* ## Typography */
+h1 {
+    font-weight: 900;
+    color:hsla(223, 46%, 23%, 1);
+    font-size: 28px;
+    line-height: 37.04px;
+    margin-bottom:17px;
+    margin-top: 45px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 6px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21.17px;
+    color: hsla(223, 46%, 23%, 1);
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.17px;
+}
+/* ## Typography end*/
+
+.plan-container {
+    background-color: hsla(228, 100%, 99%, 1);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    border-radius: 11px;
+    padding: 25px;   
+    align-items: center; 
+}
+
+.plan-container a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.52px;
+    color:hsla(245, 75%, 52%, 1);   
+    
+}
+
+.plan-container a:hover {
+    color:#766CF1;
+
+}
+
+.plan-price {
+    margin-right: 75px;
+}
+
+.proceed-button {
+    background-color: hsla(245, 75%, 52%, 1);
+    width: 100%;
+    border-radius: 11px;
+    color:white;
+    height: 50px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19.85px;
+    margin-bottom: 32px;
+    box-shadow: 0 20px 30px -8px rgb(197 189 245);
+    border:none;
+    cursor: pointer;
+}
+
+.proceed-button:hover {
+    background-color: #766CF1;
+}
+
+.cancel-button {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19.85px;
+    color:hsla(224, 23%, 55%, 1);
+    background-color: white;
+    border:none;
+    cursor:pointer;
+}
+
+.cancel-button:hover {
+    color:#1F2E55;
+
 }
