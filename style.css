@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    background-color: hsla(225, 100%, 92%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-container {
+    width: 327px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    
+    
+}
