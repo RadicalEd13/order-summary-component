@@ -30,7 +30,7 @@ body {
     
 }
 
-/* Thipograpy */
+/* typography*/
 
 h1 {
     font-weight: 900;
@@ -58,7 +58,7 @@ h2 {
 }
 
 h3 {
-    font-height:500;
+    font-weight:500;
     color:hsla(224, 23%, 55%, 1);
 }
 
@@ -68,9 +68,63 @@ a {
     line-height: 17.2px;
     color:hsla(245, 75%, 52%, 1);
 }
-/* Thipograpy end point*/
+/* typography end point*/
 
 .plan-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    background-color: hsla(228, 100%, 99%, 1);
+    border-radius: 11px;
+    padding: 20px;
+}
+
+.plan-price {
+    line-height: 18.52px;
+    margin-right: 50px;
+}
+
+.proceed-button {
+    background-color: hsla(245, 75%, 52%, 1);
+    border-radius: 11px;
+    width: 279px;
+    height: 50px;
+    border:none;
+    box-shadow:  0 20px 20px 0 rgba(56, 42, 225, 0.190291);
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+    line-height: 19.85px;
+    font-family: 'Red Hat Display',sans-serif;
+
+}
+
+.cancel-button {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19.85px;
+    color: hsla(224, 23%, 55%, 1);
+    border: none;
+    width: 100%;
+    background-color: white;
+    margin:24px 0 32px 0;
+}
+
+@media (min-width:700px) {
+    a:hover {
+        cursor: pointer;
+        color:hsla(245, 83%, 68%, 1);
+        text-decoration: none;
+    }
+
+    .proceed-button:hover {
+        background-color: hsla(245, 83%, 68%, 1);
+        cursor:pointer;
+    }
+
+.cancel-button:hover {
+    color:black;
+    cursor:pointer;
+}
 }
