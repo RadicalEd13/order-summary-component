@@ -112,6 +112,12 @@ a {
 }
 
 @media (min-width:700px) {
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: #E0E8FF;
+    }
     a:hover {
         cursor: pointer;
         color:hsla(245, 83%, 68%, 1);
